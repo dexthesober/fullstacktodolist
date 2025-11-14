@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#root{height:100%}
+body{@apply bg-teal-800 text-slate-900 shadow-sm}
+.container{  max-width:1000px;margin:0 auto;padding:2rem}
+.card{@apply bg-gradient-to-r  from-teal-600 to-blue-500 p-6 rounded-2xl shadow}
+.input{@apply border p-2 rounded w-full}
+.btn{ @apply px-3 py-2 rounded-2xl shadow-sm bg-gradient-to-r  from-pink-600 to-blue-500 }
+.btn-primary{@apply px-3 py-2 rounded-2xl shadow-sm bg-gradient-to-r  from-pink-600 to-blue-500}
